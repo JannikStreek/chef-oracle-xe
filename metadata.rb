@@ -4,7 +4,7 @@ license          'MIT'
 description      'installs Oracle-XE version for Ubuntu'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.0.9'
-name             'oracle_xe'
+name             'chef-oracle-xe'
 
 %w{ubuntu debian}.each do |os|
   supports os
